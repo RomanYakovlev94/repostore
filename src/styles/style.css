@@ -1,0 +1,92 @@
+@import url(./btn.scss);
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+a:hover {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  color: #6c7ae0;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.container {
+  max-width: 1200px;
+}
+
+.hedder {
+  margin: 0 auto;
+  height: 85px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-bottom: 1px solid rgba(51, 51, 51, 0.291);
+}
+
+.hedder__logo {
+  margin-top: 43px;
+}
+
+.hedder .navigation__items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 42px;
+}
+
+.hedder .navigation__items-item {
+  margin-right: 30px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.hedder__btns {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 40px;
+}
+
+.hedder__btns-search {
+  margin-left: 250px;
+  margin-right: 20px;
+}
+
+.hedder__btns-basket {
+  margin-right: 20px;
+}
+
+.btn {
+  border: none;
+  padding: 14px 0;
+  border-radius: 4px;
+  width: 100%;
+  color: #fff;
+  background-color: #808080;
+  cursor: pointer;
+  -webkit-transition: background-color 0.3s ease-in-out;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.btn:hover {
+  background-color: #5d71dd;
+  -webkit-transition: background-color 0.3s ease-in-out;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.btn:disabled {
+  opacity: 0.4;
+  pointer-events: none;
+}
+/*# sourceMappingURL=style.css.map */
